@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  color: black;
+}
+
+
+
+.App-Body {
+  background-image: url("Bg.png");
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(16px );
+  
+}
+
+.input {
+  color: black;
+  margin-top: 5%;
+
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
